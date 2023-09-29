@@ -1,0 +1,52 @@
+#properties{
+    .propertiesflex{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        padding: 5rem 0 4rem;
+    
+        .property{
+            width: 290px;
+            // background: red;
+            position: relative;
+            border: 7px solid lighten($primary,20);
+            box-sizing: content-box;
+    
+            .image{
+                background: lightgrey;
+                height: 350px;
+            }
+    
+            .details{
+                padding: 1rem;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #fff;
+                width: 80%;
+                border-radius: 1rem 1rem 0 0;
+                display: flex;
+                gap: .4rem;
+                flex-direction: column;
+    
+                .name{
+                    font-size: .9rem;
+                    color: $primary;
+                    font-weight: 600;
+                }
+    
+                .price{
+                    font-size: .8rem;
+                    color: $text;
+                    font-weight: 500;
+                }
+            }
+    
+            // .click{
+            //     left: 50%;
+            //     transform: translateX(-50%);
+            // }
+        }
+    }
+}

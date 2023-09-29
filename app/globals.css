@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.click {
+  padding: 0.9rem 1.3rem;
+  display: inline-block;
+  position: relative;
+  background: #ED4824;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.page {
+  max-width: 1200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4rem 2rem;
+}
+.page .heading {
+  font-size: 1.8rem;
+  color: #ED4824;
+  text-align: center;
+}
+.page .subheading {
+  font-size: 1.2rem;
+  color: rgb(97, 97, 97);
+  padding: 0.8rem 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  height: 75px;
+  align-items: center;
+  z-index: 10;
+}
+nav > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul a {
+  font-size: 0.85rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background: #e4e4e4;
+}
+footer > p {
+  text-align: center;
+  background: #454545;
+  padding: 2rem 0;
+  color: #fff;
+}
+footer > div {
+  max-width: 1200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2rem;
+  padding: 6rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+footer > div p {
+  max-width: 600px;
+  font-size: 0.9rem;
+  line-height: 180%;
+  font-size: 0.9rem;
+}
+footer > div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0 3rem;
+}
+footer > div ul a {
+  text-decoration: none;
+  color: #454545;
+  font-size: 0.8rem;
+}
+
+#hero {
+  padding: 20rem 0 23rem 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 600px;
+  position: relative;
+  width: 100%;
+  background: grey;
+}
+#hero .intro {
+  width: 45%;
+}
+#hero .intro h1 {
+  font-size: 3rem;
+}
+#hero .intro p {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  color: #fff;
+  line-height: 190%;
+}
+#hero .image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 500px;
+  background: lightgrey;
+  width: 50%;
+}
+
+#about > div {
+  padding: 8rem 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  background: #fff;
+}
+#about > div .abouttext {
+  width: 40%;
+}
+#about > div .abouttext h1 {
+  font-size: 1.8rem;
+  color: #ED4824;
+}
+#about > div .abouttext p {
+  font-size: 0.9rem;
+  padding: 0.8rem 0;
+  line-height: 190%;
+}
+#about > div .image {
+  height: 400px;
+  background: lightgrey;
+  width: 50%;
+  position: relative;
+  border: 7px solid #979797;
+}
+
+#properties .propertiesflex {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 5rem 0 4rem;
+}
+#properties .propertiesflex .property {
+  width: 290px;
+  position: relative;
+  border: 7px solid #f59782;
+  box-sizing: content-box;
+}
+#properties .propertiesflex .property .image {
+  background: lightgrey;
+  height: 350px;
+}
+#properties .propertiesflex .property .details {
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  width: 80%;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: column;
+}
+#properties .propertiesflex .property .details .name {
+  font-size: 0.9rem;
+  color: #ED4824;
+  font-weight: 600;
+}
+#properties .propertiesflex .property .details .price {
+  font-size: 0.8rem;
+  color: rgb(97, 97, 97);
+  font-weight: 500;
+}
+
+#services {
+  background: rgb(231, 231, 231);
+}
+#services .servicegrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 4rem 0 3rem;
+}
+#services .servicegrid .service {
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+#services .servicegrid .service .image {
+  height: 170px;
+  background: lightgrey;
+}
+#services .servicegrid .service .servicename {
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: rgb(97, 97, 97);
+  background: #fff;
+  text-align: center;
+}/*# sourceMappingURL=globals.css.map */

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  $primary: #ED4824;
+  $text :rgb(97, 97, 97);
+  
+  main{
+    min-height: 100vh;
+  }
+
+  .click{
+    padding: .9rem 1.3rem;
+    display: inline-block;
+    position: relative;
+    background: $primary;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: .3rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .page{
+      max-width: 1200px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 4rem 2rem;
+
+      .heading{
+        font-size: 1.8rem;
+        color: $primary;
+        text-align: center;
+      }
+
+      .subheading{
+        font-size: 1.2rem;
+        color: $text;
+        padding: .8rem 0;
+        text-align: center;
+        font-weight: 500;
+      }
+
+  }
+  
+  @import './components/styles/nav';
+  @import './components/styles/footer';
+  @import './components/styles/hero';
+  @import './components/styles/about';
+  @import './components/styles/properties';
+  @import './components/styles/services';

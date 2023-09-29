@@ -1,0 +1,42 @@
+footer {
+    background: #e4e4e4;
+    >p{
+        text-align: center;
+        background: #454545;
+        padding: 2rem 0;
+        color: #fff;
+    }
+    &>div {
+        max-width: 1200px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        // background: red;
+        gap: 2rem;
+        padding: 6rem 2rem;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        p {
+            max-width: 600px;
+            font-size: .9rem;
+            line-height: 180%;
+            font-size: .9rem;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap:.3rem;
+            padding: 0 3rem;
+
+            a{
+                text-decoration: none;
+                color: #454545;
+                font-size: .8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+#services {
+    background: rgb(231, 231, 231);
+    .servicegrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 4rem 0 3rem;
+
+        .service{
+            border-radius: .8rem;
+            overflow: hidden;
+            .image{
+                height: 170px;
+                background: lightgrey;
+            }
+    
+            .servicename{
+                padding: 2rem 1rem;
+                font-size: .9rem;
+                color: $text;
+                background: #fff;
+                text-align: center;
+            }
+        }
+    }
+}

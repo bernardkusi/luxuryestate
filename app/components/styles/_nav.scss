@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    // background: #000000ad;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    height: 75px;
+    align-items: center;
+    z-index: 10;
+    // backdrop-filter: blur(.8);
+
+    &>a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+    ul{
+        display: flex;
+        gap: 1.5rem;
+
+        a{
+            font-size: .85rem;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
